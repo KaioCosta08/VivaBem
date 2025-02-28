@@ -1,0 +1,48 @@
+#mainNossaMissao {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#titleConteudo h1{
+    font-size: 3.4375rem;
+}
+
+
+#teto {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    background-color: #9fd52b;
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 400px;
+}
+
+.informacao {
+    width: 300px;
+    font-size: 0.99rem;
+}
+
+.info {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,70 @@
+#headerPages {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    padding: 2rem;
+}
+
+#headerPages  img {
+    width: 30px;
+    cursor: pointer;
+}
+
+#titlePageSobre h1 {
+    font-size: 44px;
+    font-family: "Poppins", sans-serif;
+    color: #9fd52b;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#mainSobreNos {
+    width: 1250px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 15%;
+}
+
+#esquerdaSobreNos {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobreNos h1 {
+    font-size: 3.4375rem;
+}
+
+.rowGreen {
+    width: 15%;
+    height: 5px;
+    background-color: #9fd52b;
+    border-radius: 10px;
+}
+
+#sobreNos {
+    margin-top: 10%;
+}
+
+#esquerdaSobreNos img {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 6px 6px black;
+}
+
+#sobreComidaSaudavel {
+    width: 90%;
+    font-size: 1.1375rem;
+    margin-top: 10%;
+    position: relative;
+    left: 10%;
+}
+
+#sobreComidaSaudavel h1 {
+    text-transform: uppercase;
+}
