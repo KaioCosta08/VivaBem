@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 22px;
+    margin-right: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+.barra-horizontal {
+    background-color: #9fd52b;
+    width: 20%;
+    height: 5px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.boxNumber {
+    background-color: #9fd52b;
+    width: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 600px;
+}
+
+#mainPrincipalCriaçãoEquipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    font-family: "Open Sans", serif;
+}
+
+
+
+.textos {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    color: #9fd52b;
+}
+
+.ul{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#definicao{
+    display: flex;
+    align-items: start;
+}
+
+#boxNumberOne{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: #fff;
+}
+
+.box_TopicoTwo{
+    display: flex;
+    align-items: start;
+}
+
+#boxNumberTwo{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: #fff;
+}
+
+#box_TopicoThree{
+    display: flex;
+    align-items: start;
+}
+
+#boxNumberThree{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: #fff;
+}
